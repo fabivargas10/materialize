@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta>
+    <meta>
+    <title>Document</title>
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="materialize/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        .header{
+    position: fixed;
+    width: 100%;
+    background-color: #2c3e50;
+
+}
+.nav-wrapper{
+    background-color: #2c3e50;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 15px;
+}
+nav .nav-wrapper {
+    height: 100px;
+}
+.brand-logo{
+    width: 50%;
+    text-align: center;
+    justify-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.right{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 150px;
+}
+.section{
+    height: 650px;
+    background-color: #1abc9c;
+    text-align: center;
+    padding-top: 208px;
+}
+.section h1{
+    font-weight: 700px;
+    color: white;
+}
+.section p{
+    font-weight: 900px;
+    color: white;
+    font-size: 25px;
+}
+.material-icons{
+    color: white;
+    justify-content: center;
+    padding-right: 80px;
+}
+.icon{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.sectiont{
+    justify-content: space-around;
+    display: flex;
+}
+.section2{
+    width: 90%;
+    height: 950px;
+    text-align: center;
+    padding-top: 120px;
+    margin: auto;
+    justify-content: space-around;
+}
+.section2 h1{
+    font-weight: 700px;
+}
+.section2img{
+    width: 30%;
+    padding-bottom: 30px;
+}
+.section2img img{
+    width: 350px;
+    border-radius: 10px;
+}
+.section3{
+    height: 500px;
+    background-color: #1abc9c;
+    text-align: center;
+    padding-top: 10px;
+    justify-content: center;
+}
+.section3 h1{
+    color: white;
+    font-weight: 700;
+}
+.parafo{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.parafo2{
+    text-align: initial;
+    font-size: 20px;
+    font-weight: 100px;
+    color: white;
+    padding: 17px;
+}
+.waves-effect{
+    background-color: #1abc9c;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.section4{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.section4 h1{
+    text-align: center;
+    font-weight: 600;
+}
+.footer{
+    height: 250px;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+.footer h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.footer span{
+    color: #28a745;
+}
+.sectionfooter{
+    width: 100%;
+    background-color: #1a252f;
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">   
+        <nav>
+            <div class="nav-wrapper">
+            <a href="#" class="brand-logo">INICIAR BOOTSTRAP</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="">PORTAFOLIO</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACTO</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>  
+    <section class="section">
+        <div>
+            <img width="250px" src="img/avataaars.svg" alt="">
+            <h1>INICIAR BOOTSTRAP</h1>
+            <div class="icon">
+                <i class="material-icons">ajustar </i>
+            </div>
+            <p>Artista gráfico - Diseñador web - Ilustrador</p>
+        </div>
+    </section>
+    <section class="section2">
+        <h1>PORTAFOLIO</h1>
+        <div class="icon">
+            <i class="material-icons">ajustar </i>
+        </div>
+        <div class="sectiont">
+            <div class="section2img">
+                <img src="img/cabin.png" alt="">
+            </div>
+            <div class="section2img">
+                <img src="img/cake.png" alt="">
+            </div>
+            <div class="section2img">
+                <img src="img/circus.png" alt="">
+            </div>
+        </div>
+        <div class="sectiont">
+            <div class="section2img">
+                <img src="img/game.png" alt="">
+            </div>
+            <div class="section2img">
+                <img src="img/safe.png" alt="">
+            </div>
+            <div class="section2img">
+                <img src="img/submarine.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <div>
+            <h1>ABOUT</h1>
+            <div class="icon">
+                <i class="material-icons">ajustar </i>
+            </div>
+            <div class="parafo">
+                <div class="parafo2"> 
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                </div>
+                <div class="parafo2">
+                    <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                </div>
+            </div>
+            <a class="waves-effect waves-light btn-large"><i class="material-icons left">cloud_download</i>Free Download!</a>
+        </div>
+    </section>
+    <section class="section4">
+        <h1>CONTACT ME</h1>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Name</label>
+                </div>
+              </div>
+            </form>
+        </div>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Email Address</label>
+                </div>
+              </div>
+            </form>
+        </div>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Phone Number</label>
+                </div>
+              </div>
+            </form>
+        </div>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Message</label>
+                </div>
+              </div>
+            </form>
+        </div>
+        <a class="waves-effect waves-light btn">Send</a>
+    </section>
+    <footer class="footer">
+        <div>
+            <h3>LOCATION</h3>
+            <p>2215 John Daniel Drive</p>
+            <p>Clark, MO 65243</p>
+        </div>
+        <div>
+            <h3>AROUND THE WEB</h3>
+        </div>
+        <div>
+            <h3>ABOUT FREELANCER</h3>
+            <p>Freelance es un tema Bootstrap con</p>
+            <p>licencia MIT de uso gratuito creado</p>
+            <p>por <a href=""><span>Start Bootstrap </span></a>.</p>
+        </div>
+    </footer>
+    <section class="sectionfooter">
+        <p>Copyright © Su sitio web 2020</p>
+    </section>
+</body>
+</html>
